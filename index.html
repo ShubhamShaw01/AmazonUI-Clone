@@ -148,7 +148,7 @@
     </div>
     <footer>
         <div class="foot-panel1">
-            <a href="http://127.0.0.1:5500/Amazon%20clone/index.html">Back to top</a>
+            <a class="backToTop" href="#">Back to top</a>
         </div>
         <div class="foot-panel2">
             <ul>
@@ -252,6 +252,11 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.querySelector(".backToTop").addEventListener('click' , function(){
+            window.scrollTo({top: 0, behavior:"smooth"});            
+        });
+    </script>
 </body>
 
 </html>
