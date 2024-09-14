@@ -5,7 +5,7 @@
 <p>In this project, we are going to explore HTML and CSS.</p>
 <br>
 
-# My Project
+## My Project
 
 ## Demo Video
 
